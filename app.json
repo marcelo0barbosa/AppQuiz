@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "QuizTop",
+    "slug": "quiztop",
+    "scheme": "quiztop",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7671E5"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#7671E5"
+      },
+      "package": "com.marcelobarbosa.quiztop",
+      "permissions": []
+    }
+  },
+  "name": "quiztop"
+}
